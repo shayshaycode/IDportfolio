@@ -666,6 +666,30 @@
   border: 1px solid var(--primary-color);
   border-radius: 4px;
   pointer-events: none;
+  overflow: hidden; /* Hide internal scrollbars */
+}
+
+/* Remove scrollbars in WebKit based browsers */
+.workflow-links embed::-webkit-scrollbar {
+  display: none;
+}
+
+/* Dark overlay on hover */
+.workflow-links a::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 4px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.workflow-links a:hover::after {
+  opacity: 1;
 }
 @media (max-width: 768px) {
   .workflow-section {
@@ -674,6 +698,10 @@
   }
   .workflow-desc ul {
     padding-left: 0;
+    list-style-position: inside;
+    margin: 0 auto;
+    display: inline-block;
+    text-align: left;
   }
   .workflow-links {
     flex-direction: column;
