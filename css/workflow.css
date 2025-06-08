@@ -9,7 +9,7 @@
     height: 100vh; /* Full viewport height */
     width: 100vw; /* Full viewport width */
     max-width: 100%; /* Prevents horizontal overflow */
-    background: url('../images/indexheroBG.png') no-repeat center center/cover;
+    background: url('../images/easychatbot.png') no-repeat center center/cover;
     background-size: 170%;
     color: #fff;
     padding: 20px;
