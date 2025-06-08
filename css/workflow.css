@@ -643,3 +643,23 @@
   text-decoration: underline;
 }
 
+/* Three-column layout for workflow content */
+.workflow-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: left;
+}
+
+.workflow-grid > div {
+  padding: 10px;
+}
+
+@media (min-width: 768px) {
+  .workflow-grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    align-items: start;
+  }
+}
+
