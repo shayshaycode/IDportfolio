@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio | Instructional Design Portfolio</title>
     <!-- Shared styles -->
-    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="../css/main.css" />
     <!-- Portfolio page specific styles -->
-    <link rel="stylesheet" href="css/psychexperiments.css" />
+    <link rel="stylesheet" href="../css/belovedbumps.css" />
     <!-- Bootstrap (leave these links) -->
     <link
       rel="stylesheet"
@@ -29,7 +29,7 @@
       <nav class="navbar">
         <div class="logo">
           <a href="index.html">
-            <img src="images/logo.svg" alt="Noah Schaffer's Logo" />
+            <img src="../images/logo.svg" alt="Noah Schaffer's Logo" />
           </a>
         </div>
         <!-- Mobile navigation toggle -->
@@ -50,43 +50,51 @@
         <!-- Hero Section -->
         <section class="hero reveal2">
           <div class="hero-content reveal">
-            <h1>Conducting Psych Experiments</h1>
-            <p>Articulate Storyline</p>
+            <h1>Beloved Bumps</h1>
+            <p>Adobe Captivate, Talent LMS</p>
           </div>
         </section>
 
 <!-- Project Details Section -->
 <section class="project-details container py-5">
-  <div class="row">
-    <div class="col-md-4">
-      <ul class="project-info">
-        <li><strong>Client</strong><br>XCL World Academy</li>
-        <li><strong>Categories</strong><br>Instructional Design, Gamification, Psychology Education</li>
-        <li><strong>Year</strong><br>2024</li>
-        <li><strong>Attributes</strong><br>Articulate Storyline, Gamified, Interactive, Creative Design, Dual-Mode Delivery</li>
-      </ul>
+    <div class="row">
+      <div class="col-md-4">
+        <ul class="project-info">
+          <li><strong>Client</strong><br>Beloved Bumps</li>
+          <li><strong>Categories</strong><br>Instructional Design, Adobe Captivate, Learning Management System (Talent LMS)</li>
+          <li><strong>Year</strong><br>2025</li>
+          <li><strong>Attributes</strong><br>Custom Graphics, Branding, Embedded multimedia, Formative Feedback, Gamification, Responsive Design, Community Building features</li>
+        </ul>
+      </div>
+      <div class="col-md-8">
+        <h2>Beloved Bumps Prenatal Course</h2>
+        <p>
+            For Beloved Bumps, I designed and developed a fully online prenatal education course delivered through TalentLMS. The course combines multimedia elements — including interactive Adobe Captivate modules, animated video introductions, and real-time knowledge checks — to create a highly engaging learning experience for expecting parents. I built clear, structured pathways for learners, incorporating custom graphics, gamified elements like leaderboards, and community features such as discussion boards and direct messaging with instructors. The course is mobile-responsive and supports flexible learning, with scheduled live Q&A sessions to foster connection and deepen understanding.        </p>
+      </div>
     </div>
-    <div class="col-md-8">
-      <h2>Conducting Psych Experiments</h2>
-      <p>
-        This interactive Articulate Storyline experience was designed to help high school students grasp the fundamentals of psychological experimentation. Using a playful Lego-inspired theme, the module turned a complex and often dry topic into an engaging, hands-on challenge. The gamified format allowed students to design experiments, test variables, and see results in real-time. It was praised for its creativity, accessibility, and ability to support both in-person and remote learning environments.
-      </p>
+  </section>
+  
+<!-- Video Section -->
+<section class="project-video container py-5">
+    <h2 class="mb-4">Project Overview Video</h2>
+    <div class="video-container">
+        <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/1078967014?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Beloved Bumps Prenatal Course Promo"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>      </div>
     </div>
-  </div>
-</section>
+  </section>
+  
 
-<!-- Project Hotspot Section -->
-<section class="image-hotspots container py-5">
-  <div class="hotspot-container">
-    <img src="images/psychexperiment.png" alt="Project Screenshot" class="img-fluid hotspot-image">
-    
-    <div class="hotspot" data-info="Gamified UX using Lego characters" style="top: 25%; left: 60%;"></div>
-    <div class="hotspot" data-info="Animated and Interactive" style="top: 50%; left: 50%;"></div>
-    <div class="hotspot" data-info="Storyline navigation that works for both classroom and remote use" style="top: 75%; left: 55%;"></div>
-  </div>
 
-  <div id="hotspot-info-box" class="info-box hidden"></div>
-</section>
+  <section class="image-hotspots container py-5">
+    <div class="hotspot-container">
+      <img src="../images/belovedbumpscover.png" alt="Project Screenshot" class="img-fluid hotspot-image">
+      
+      <div class="hotspot" data-info="Dashboard customization, learner progress tracking, and gamification through TalentLMS." style="top: 20%; left: 20%;"></div>
+      <div class="hotspot" data-info="Adobe Captivate modules with branching scenarios, embedded videos, and instant feedback quizzes." style="top: 45%; left: 20%;"></div>
+      <div class="hotspot" data-info="Optimized for desktop, tablet, and mobile with adaptive graphics and intuitive navigation." style="top: 55%; left: 45%;"></div>
+    </div>
+  
+    <div id="hotspot-info-box" class="info-box hidden"></div>
+  </section>
   
 
 
@@ -110,28 +118,27 @@
                     <textarea id="message" name="message" rows="4" required></textarea>
                   
                     <button type="submit" class="see-more-btn reveal">Send Message</button>
-                  </form>
-                </div>
+                  </form>                </div>
                 <!-- Stagger item for the social icons -->
                 <div class="col-12 col-md-6 stagger-item d-flex flex-row justify-content-center align-items-center">
                   <!-- Email -->
                   <a href="mailto:noahschafferpro@outlook.com?subject=Instructional Design Inquiry&body=Hi Noah," class="m-2 reveal" title="Email">
-                    <img src="images/email.png" alt="Email" style="width: 50px;">
+                    <img src="../images/email.png" alt="Email" style="width: 50px;">
                   </a>
 
                   <!-- Phone -->
                   <a href="tel:+13524331340" class="m-2 reveal" title="Phone">
-                    <img src="images/phone.png" alt="Phone" style="width: 50px;">
+                    <img src="../images/phone.png" alt="Phone" style="width: 50px;">
                   </a>
 
                   <!-- LinkedIn -->
                   <a href="https://www.linkedin.com/in/noah-schaffer-a91883170" target="_blank" class="m-2 reveal" title="LinkedIn">
-                    <img src="images/linkedin.png" alt="LinkedIn" style="width: 50px;">
+                    <img src="../images/linkedin.png" alt="LinkedIn" style="width: 50px;">
                   </a>
 
                   <!-- Vimeo -->
                   <a href="https://vimeo.com/user237019645" target="_blank" class="m-2 reveal" title="Vimeo">
-                    <img src="images/vimeo.png" alt="Vimeo" style="width: 50px;">
+                    <img src="../images/vimeo.png" alt="Vimeo" style="width: 50px;">
                   </a>
                 </div>
               </div>
@@ -155,10 +162,10 @@
   </div>
 
     <!-- JavaScript -->
-    <script src="js/main.js"></script>
-    <script src="js/viewbtn.js"></script>
-    <script src="js/hotspot.js"></script>
-    <script src="js/chat-widget.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/viewbtn.js"></script>
+    <script src="../js/hotspot.js"></script>
+    <script src="../js/chat-widget.js"></script>
 
     <script
       src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
